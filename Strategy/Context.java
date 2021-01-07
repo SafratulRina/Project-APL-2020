@@ -6,12 +6,7 @@ public class Context {
     public Context(Lampu lampu){
        this.lampu = lampu;
     }
- 
-   //  public void executeLampu(String redup, String terang){
-   //     this.redup = redup;
-   //     this.terang = terang;
-   //     }
-       public String executeLampu(String redup, String terang){
-         return lampu.mengaturKecerahan(redup, terang);
+    public String executeLampu(String redup, String terang){
+       return lampu.mengaturKecerahan(redup, terang);
       }
  }
